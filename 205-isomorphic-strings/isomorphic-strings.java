@@ -13,7 +13,7 @@ class Solution {
             if(!t_map.containsKey(t_c)) {
                 t_map.put(t_c, i);
             }
-            if(s_map.get(s_c)!=t_map.get(t_c)) return false;
+            if(!s_map.get(s_c).equals(t_map.get(t_c))) return false;
         }
         return true;
     }
