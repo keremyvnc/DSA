@@ -5,13 +5,15 @@ class Solution {
         HashMap<Character, Integer> t_map = new HashMap<>();
 
         for(int i = 0; i<s.length(); i++) {
-            if(!s_map.containsKey(s.charAt(i))) {
-                s_map.put(s.charAt(i), i);
+            char s_c = s.charAt(i);
+            char t_c = t.charAt(i);
+            if(!s_map.containsKey(s_c)) {
+                s_map.put(s_c, i);
             }
-            if(!t_map.containsKey(t.charAt(i))) {
-                t_map.put(t.charAt(i), i);
+            if(!t_map.containsKey(t_c)) {
+                t_map.put(t_c, i);
             }
-            if(s_map.get(s.charAt(i))!=t_map.get(t.charAt(i))) return false;
+            if(s_map.get(s_c)!=t_map.get(t_c)) return false;
         }
         return true;
     }
