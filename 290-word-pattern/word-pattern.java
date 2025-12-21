@@ -1,0 +1,21 @@
+class Solution {
+    public boolean wordPattern(String pattern, String s) {
+        String[] words = s.trim().split("\\s+");
+        HashMap<Character, Integer> charMap = new HashMap<>();
+        HashMap<String, Integer> wordMap = new HashMap<>();
+        if(words.length != pattern.length()) return false;
+        for(int i = 0; i<pattern.length(); i++){
+            if(!charMap.containsKey(pattern.charAt(i))) {
+                charMap.put(pattern.charAt(i), i);
+            }
+            if(!wordMap.containsKey(words[i])) {
+                wordMap.put(words[i], i);
+            }
+            if(!charMap.get(pattern.charAt(i)).equals(wordMap.get(words[i]))) {
+                return false;
+            }
+        }
+        return true;
+        
+    }
+}
