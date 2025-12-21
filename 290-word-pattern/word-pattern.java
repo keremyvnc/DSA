@@ -4,20 +4,19 @@ class Solution {
         String[] words = s.trim().split("\\s+");
         if(words.length != pattern.length()) return false;
 
-        HashMap<Character, Integer> charMap = new HashMap<>();
-        HashMap<String, Integer> wordMap = new HashMap<>();
+        HashMap<Character, String> charToWord = new HashMap<>();
+        HashSet<String> wordSet = new HashSet<>();
         
         for(int i = 0; i<pattern.length(); i++){
             char c = pattern.charAt(i);
             String w = words[i];
-            if(!charMap.containsKey(c)) {
-                charMap.put(c, i);
+            if(charToWord.containsKey(c)) {
+                if(!charToWord.get(c).equals(w)) return false;
             }
-            if(!wordMap.containsKey(w)) {
-                wordMap.put(w, i);
-            }
-            if(!charMap.get(c).equals(wordMap.get(w))) {
-                return false;
+            else {
+                if(wordSet.contains(w)) return false;
+                charToWord.put(c,w);
+                wordSet.add(w);
             }
         }
         return true;
