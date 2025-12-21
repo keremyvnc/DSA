@@ -1,7 +1,7 @@
 class Solution {
     //keremyvnc
     public boolean wordPattern(String pattern, String s) {
-        String[] words = s.trim().split("\\s+");
+        String[] words = s.split(" ");
         if(words.length != pattern.length()) return false;
 
         HashMap<Character, String> charToWord = new HashMap<>();
