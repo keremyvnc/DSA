@@ -1,4 +1,5 @@
 class Solution {
+    // keremyvnc
     public boolean wordPattern(String pattern, String s) {
         String[] words = s.split(" ");
         HashMap<Character, Integer> charMap = new HashMap<>();
