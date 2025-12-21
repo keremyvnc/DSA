@@ -1,7 +1,7 @@
 class Solution {
     // keremyvnc
     public boolean wordPattern(String pattern, String s) {
-        String[] words = s.split(" ");
+        String[] words = s.split(" "); // regex is not good
         if(words.length != pattern.length()) return false;
         HashMap<Character, Integer> charMap = new HashMap<>();
         HashMap<String, Integer> wordMap = new HashMap<>();
