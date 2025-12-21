@@ -2,9 +2,10 @@ class Solution {
     // keremyvnc
     public boolean wordPattern(String pattern, String s) {
         String[] words = s.split(" ");
+        if(words.length != pattern.length()) return false;
         HashMap<Character, Integer> charMap = new HashMap<>();
         HashMap<String, Integer> wordMap = new HashMap<>();
-        if(words.length != pattern.length()) return false;
+        
         for(int i = 0; i<pattern.length(); i++){
             if(!charMap.containsKey(pattern.charAt(i))) {
                 charMap.put(pattern.charAt(i), i);
