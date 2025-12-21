@@ -1,22 +1,18 @@
 class Solution {
-    //keremyvnc
     public boolean wordPattern(String pattern, String s) {
         String[] words = s.split(" ");
+        HashMap<Character, Integer> charMap = new HashMap<>();
+        HashMap<String, Integer> wordMap = new HashMap<>();
         if(words.length != pattern.length()) return false;
-
-        HashMap<Character, String> charToWord = new HashMap<>();
-        HashSet<String> wordSet = new HashSet<>();
-        
         for(int i = 0; i<pattern.length(); i++){
-            char c = pattern.charAt(i);
-            String w = words[i];
-            if(charToWord.containsKey(c)) {
-                if(!charToWord.get(c).equals(w)) return false;
+            if(!charMap.containsKey(pattern.charAt(i))) {
+                charMap.put(pattern.charAt(i), i);
             }
-            else {
-                if(wordSet.contains(w)) return false;
-                charToWord.put(c,w);
-                wordSet.add(w);
+            if(!wordMap.containsKey(words[i])) {
+                wordMap.put(words[i], i);
+            }
+            if(!charMap.get(pattern.charAt(i)).equals(wordMap.get(words[i]))) {
+                return false;
             }
         }
         return true;
