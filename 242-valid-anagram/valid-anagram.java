@@ -1,5 +1,6 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
+        // keremyvnc
         HashMap<Character, Integer> map = new HashMap<>();
         if(s.length() != t.length()) return false;
         for(char c: s.toCharArray()){
