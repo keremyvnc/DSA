@@ -15,7 +15,7 @@ class Solution {
             if(!map.containsKey(c)) return false;
             else {
                 if(map.get(c) == 0) return false;
-                else map.put(c, map.get(c)-1);
+                map.put(c, map.get(c)-1);
             }
         } 
         return true;
