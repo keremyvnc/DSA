@@ -3,8 +3,9 @@ class Solution {
         HashMap<Integer, Integer> elements = new HashMap<>();
 
         for(int i=0; i<nums.length; i++) {
-            if(elements.containsKey(target-nums[i])){
-                return new int[] {elements.get(target-nums[i]), i};
+            int diff = target-nums[i];
+            if(elements.containsKey(diff)){
+                return new int[] {elements.get(diff), i};
             }
             else {
                 elements.put(nums[i], i);
