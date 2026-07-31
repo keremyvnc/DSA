@@ -17,9 +17,9 @@ class Solution {
             for (int num : bucket.get(i)) {
                 topK[kth] = num;
                 kth++;
-                if (kth >= k) break;
+                if (kth == k) break;
             }
-            if (kth >= k) break;
+            if (kth == k) break;
         }
         return topK;
     }
