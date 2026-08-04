@@ -8,9 +8,9 @@ class Solution {
             prefix = prefix * nums[i];
         }
         int suffix=1;
-        for(int i=nums.length-2;i>=0;i--){
-            suffix = suffix*nums[i+1];
-            output[i]=suffix*output[i];
+        for(int i=nums.length-1;i>=0;i--){
+            output[i] = suffix * output[i];
+            suffix = suffix * nums[i];
         }
 
         return output;
