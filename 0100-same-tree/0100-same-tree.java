@@ -16,28 +16,10 @@
 class Solution {
     boolean solution=true;
     public boolean isSameTree(TreeNode p, TreeNode q) {
-        traverseBothTrees(p,q);
-        return solution;
+        if(p == null && q == null) return true;
+        else if(p == null || q == null) return false;
+        else if(p.val != q.val) return false;
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 
-    }
-
-    void traverseBothTrees(TreeNode p, TreeNode q){
-        if(p == null && q != null) {
-            solution = false;
-            return;
-        }
-        else if(p != null && q == null){
-            solution = false;
-            return;
-        }
-        else if (p == null || q == null){
-            return;
-        }
-        else if(p.val != q.val) {
-            solution = false;
-            return;
-        }
-        isSameTree(p.left, q.left);
-        isSameTree(p.right, q.right);
     }
 }
