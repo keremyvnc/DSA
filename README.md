@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/keremyvnc/DSA/tree/master/0049-group-anagrams) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/keremyvnc/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0238-product-of-array-except-self](https://github.com/keremyvnc/DSA/tree/master/0238-product-of-array-except-self) |
+| [1046-last-stone-weight](https://github.com/keremyvnc/DSA/tree/master/1046-last-stone-weight) |
 ## Hash Table
 |  |
 | ------- |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/keremyvnc/DSA/tree/master/0703-kth-largest-element-in-a-stream) |
+| [1046-last-stone-weight](https://github.com/keremyvnc/DSA/tree/master/1046-last-stone-weight) |
 ## Data Stream
 |  |
 | ------- |
