@@ -9,7 +9,7 @@ public:
             int sum=0;
             for(char c : s_num){
                 int digit = c - '0';
-                sum += std::pow(digit, 2);
+                sum += digit * digit;
             }
             if(sum == 1) return true;
             s_num = std::to_string(sum);
