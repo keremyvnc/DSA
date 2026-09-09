@@ -1,18 +1,20 @@
 class Solution {
 public:
     bool isHappy(int n) {
-        std::set<std::string> s;
+        std::unordered_set<int> s;
+        int num = n;
         std::string s_num = std::to_string(n);
         
-        while(!s.contains(s_num)) {
-            s.insert(s_num);
+        while(!s.contains(num)) {
+            s.insert(num);
             int sum=0;
-            for(char c : s_num){
-                int digit = c - '0';
-                sum += digit * digit;
+            while (num > 0) {
+                int digit = num % 10;
+                num /= 10;     
+                sum += digit*digit;
             }
             if(sum == 1) return true;
-            s_num = std::to_string(sum);
+            num = sum;
         }
         return false;
     }
