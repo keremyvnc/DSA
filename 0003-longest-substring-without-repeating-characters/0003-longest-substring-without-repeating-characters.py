@@ -10,7 +10,7 @@ class Solution:
                     leftPointer +=1
             unique_set.add(s[rightPointer])
             rightPointer += 1
-            longest = max(longest, rightPointer - leftPointer)
+            longest = max(longest, len(unique_set))
 
         return longest
 
