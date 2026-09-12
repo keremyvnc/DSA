@@ -1,14 +1,14 @@
 <!---LeetCode Stats Start-->
 # LeetCode Stats
 
-![Total](https://img.shields.io/badge/Total-22-blue?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-13-brightgreen?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-9-orange?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total-23-blue?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-13-brightgreen?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-10-orange?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
 | Difficulty | Solved |
 | ---------- | ------ |
 | 🟢 Easy | 13 |
-| 🟠 Medium | 9 |
+| 🟠 Medium | 10 |
 | 🔴 Hard | 0 |
-| **Total** | **22** |
+| **Total** | **23** |
 <!---LeetCode Stats End-->
 
 A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/keremyvnc/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/keremyvnc/DSA/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0110-balanced-binary-tree) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/keremyvnc/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/keremyvnc/DSA/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0110-balanced-binary-tree) |
@@ -96,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/keremyvnc/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/keremyvnc/DSA/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0110-balanced-binary-tree) |
@@ -110,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/keremyvnc/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/keremyvnc/DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Heap (Priority Queue)
 |  |
