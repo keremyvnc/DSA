@@ -1,3 +1,16 @@
+<!---LeetCode Stats Start-->
+# LeetCode Stats
+
+![Total](https://img.shields.io/badge/Total-22-blue?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-13-brightgreen?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-9-orange?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
+
+| Difficulty | Solved |
+| ---------- | ------ |
+| 🟢 Easy | 13 |
+| 🟠 Medium | 9 |
+| 🔴 Hard | 0 |
+| **Total** | **22** |
+<!---LeetCode Stats End-->
+
 A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 <!---LeetCode Topics Start-->
 # LeetCode Topics
