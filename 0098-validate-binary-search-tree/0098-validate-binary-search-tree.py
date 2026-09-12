@@ -13,15 +13,9 @@ class Solution:
 
     def innerIsValidBST(self, root: Optional[TreeNode], low, high):
         if root == None: return
-        if self.validate(root, low, high):
-            if high is not None:
-                self.innerIsValidBST(root.left, low, min(high, root.val))
-            else:
-                self.innerIsValidBST(root.left, low, root.val)
-            if low is not None:
-                self.innerIsValidBST(root.right, max(low, root.val), high)
-            else:
-                self.innerIsValidBST(root.right, root.val, high)
+        if low < root.val < high:
+            self.innerIsValidBST(root.left, low, min(high, root.val))
+            self.innerIsValidBST(root.right, max(low, root.val), high)
         else:
             self.solution = False
             
