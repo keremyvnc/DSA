@@ -18,14 +18,5 @@ class Solution:
             self.innerIsValidBST(root.right, max(low, root.val), high)
         else:
             self.solution = False
-            
-
-    def validate(self, root: Optional[TreeNode], min, max) -> bool:
-        if root is None: return True
-        if min is not None and root.val <= min:
-            return False
-        if max is not None and root.val >= max:
-            return False
-        return True
                 
                 
