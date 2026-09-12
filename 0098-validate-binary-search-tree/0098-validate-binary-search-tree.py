@@ -8,7 +8,7 @@
 class Solution:
     solution = True
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        self.innerIsValidBST(root, None, None)
+        self.innerIsValidBST(root, float("-inf"), float("inf"))
         return self.solution
 
     def innerIsValidBST(self, root: Optional[TreeNode], low, high):
