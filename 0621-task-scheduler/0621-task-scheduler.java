@@ -6,11 +6,11 @@ class Solution {
         }
 
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
-        for(int i=0; i< freq.length;i++) {
-            if(freq[i]==0){
-                continue;
+        for(int f : freq) {
+            if(f > 0){
+                maxHeap.offer(f);
             }
-            maxHeap.offer(freq[i]);
+            
         }
         record Element(int freq, int readyTime) {}
         Queue<Element> q = new ArrayDeque<>();
@@ -28,12 +28,11 @@ class Solution {
             }
             if(maxHeap.peek() != null) {
                 int highFreq = maxHeap.poll();
-                if(highFreq -1 > 0){
+                if(highFreq > 1){
                     q.add(new Element(highFreq-1, time + n)); 
                 }
             }
         }
-
         return time;
     }
 }
