@@ -1,14 +1,14 @@
 <!---LeetCode Stats Start-->
 # LeetCode Stats
 
-![Total](https://img.shields.io/badge/Total-23-blue?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-13-brightgreen?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-10-orange?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total-24-blue?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-13-brightgreen?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-11-orange?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-red?style=for-the-badge)
 
 | Difficulty | Solved |
 | ---------- | ------ |
 | 🟢 Easy | 13 |
-| 🟠 Medium | 10 |
+| 🟠 Medium | 11 |
 | 🔴 Hard | 0 |
-| **Total** | **23** |
+| **Total** | **24** |
 <!---LeetCode Stats End-->
 
 A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keremyvnc/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/keremyvnc/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0238-product-of-array-except-self](https://github.com/keremyvnc/DSA/tree/master/0238-product-of-array-except-self) |
+| [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
 | [0875-koko-eating-bananas](https://github.com/keremyvnc/DSA/tree/master/0875-koko-eating-bananas) |
 | [1046-last-stone-weight](https://github.com/keremyvnc/DSA/tree/master/1046-last-stone-weight) |
 ## Hash Table
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/keremyvnc/DSA/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/keremyvnc/DSA/tree/master/0049-group-anagrams) |
 | [0202-happy-number](https://github.com/keremyvnc/DSA/tree/master/0202-happy-number) |
+| [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
 ## String
 |  |
 | ------- |
@@ -44,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/keremyvnc/DSA/tree/master/0049-group-anagrams) |
+| [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
 ## Stack
 |  |
 | ------- |
@@ -118,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/keremyvnc/DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [1046-last-stone-weight](https://github.com/keremyvnc/DSA/tree/master/1046-last-stone-weight) |
 ## Data Stream
@@ -171,4 +175,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/keremyvnc/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+## Greedy
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
+## Counting
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
 <!---LeetCode Topics End-->
