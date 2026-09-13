@@ -9,8 +9,7 @@ class Solution {
         for(int f : freq) {
             if(f > 0){
                 maxHeap.offer(f);
-            }
-            
+            }  
         }
         record Element(int freq, int readyTime) {}
         Queue<Element> q = new ArrayDeque<>();
