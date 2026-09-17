@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/keremyvnc/DSA/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/keremyvnc/DSA/tree/master/0036-valid-sudoku) |
+| [0046-permutations](https://github.com/keremyvnc/DSA/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/keremyvnc/DSA/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/keremyvnc/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/keremyvnc/DSA/tree/master/0078-subsets) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/keremyvnc/DSA/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/keremyvnc/DSA/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
