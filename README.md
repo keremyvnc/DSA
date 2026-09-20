@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/keremyvnc/DSA/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keremyvnc/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/keremyvnc/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/keremyvnc/DSA/tree/master/0238-product-of-array-except-self) |
 | [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
 | [0875-koko-eating-bananas](https://github.com/keremyvnc/DSA/tree/master/0875-koko-eating-bananas) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/keremyvnc/DSA/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0110-balanced-binary-tree) |
+| [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/keremyvnc/DSA/tree/master/0572-subtree-of-another-tree) |
@@ -88,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/keremyvnc/DSA/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
@@ -152,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/keremyvnc/DSA/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/keremyvnc/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
 ## Math
 |  |
 | ------- |
@@ -180,4 +184,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/keremyvnc/DSA/tree/master/0020-valid-parentheses) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
