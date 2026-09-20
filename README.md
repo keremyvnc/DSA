@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/keremyvnc/DSA/tree/master/0238-product-of-array-except-self) |
 | [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/keremyvnc/DSA/tree/master/0695-max-area-of-island) |
 | [0875-koko-eating-bananas](https://github.com/keremyvnc/DSA/tree/master/0875-koko-eating-bananas) |
 | [1046-last-stone-weight](https://github.com/keremyvnc/DSA/tree/master/1046-last-stone-weight) |
 ## Hash Table
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/keremyvnc/DSA/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/keremyvnc/DSA/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/keremyvnc/DSA/tree/master/0226-invert-binary-tree) |
+| [0695-max-area-of-island](https://github.com/keremyvnc/DSA/tree/master/0695-max-area-of-island) |
 ## Binary Tree
 |  |
 | ------- |
@@ -156,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/keremyvnc/DSA/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/keremyvnc/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/keremyvnc/DSA/tree/master/0695-max-area-of-island) |
 ## Math
 |  |
 | ------- |
@@ -188,4 +192,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/keremyvnc/DSA/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
