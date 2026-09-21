@@ -6,9 +6,10 @@ class Solution:
         max_length = 0
         
         for right in range(len(s)):
-            if s[right] in freq:
-                freq[s[right]] += 1
-            else: freq[s[right]] = 1
+            right_val = s[right]
+            if right_val in freq:
+                freq[right_val] += 1
+            else: freq[right_val] = 1
 
             while (right - left + 1) - max(freq.values()) > k:
                 freq[s[left]] -= 1
