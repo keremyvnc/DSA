@@ -3,10 +3,6 @@ class Solution:
         left = 0
         freq = {}
 
-        def mostFreq() -> int:
-            key = max(freq, key=freq.get)
-            return freq[key]
-
         max_length = 0
         
         for right in range(len(s)):
@@ -14,20 +10,11 @@ class Solution:
                 freq[s[right]] += 1
             else: freq[s[right]] = 1
 
-            while (right - left + 1) - mostFreq() > k:
+            while (right - left + 1) - max(freq.values()) > k:
                 freq[s[left]] -= 1
                 left += 1
             max_length = max((right - left + 1), max_length)
         return max_length
-
-        while left < len(str):
-            left_val = s[left]
-            right_val = s[right]
-
-            if freq.containsKey(right):
-                freq[right] += 1
-            else:
-                freq[right] = 1
 
             
 
