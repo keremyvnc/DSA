@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/keremyvnc/DSA/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/keremyvnc/DSA/tree/master/0049-group-anagrams) |
 | [0202-happy-number](https://github.com/keremyvnc/DSA/tree/master/0202-happy-number) |
+| [0424-longest-repeating-character-replacement](https://github.com/keremyvnc/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
 ## String
 |  |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/keremyvnc/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/keremyvnc/DSA/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/keremyvnc/DSA/tree/master/0049-group-anagrams) |
+| [0424-longest-repeating-character-replacement](https://github.com/keremyvnc/DSA/tree/master/0424-longest-repeating-character-replacement) |
 ## Sorting
 |  |
 | ------- |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/keremyvnc/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/keremyvnc/DSA/tree/master/0424-longest-repeating-character-replacement) |
 ## Greedy
 |  |
 | ------- |
