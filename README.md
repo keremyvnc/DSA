@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/keremyvnc/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/keremyvnc/DSA/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/keremyvnc/DSA/tree/master/0238-product-of-array-except-self) |
+| [0283-move-zeroes](https://github.com/keremyvnc/DSA/tree/master/0283-move-zeroes) |
 | [0621-task-scheduler](https://github.com/keremyvnc/DSA/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/keremyvnc/DSA/tree/master/0695-max-area-of-island) |
 | [0875-koko-eating-bananas](https://github.com/keremyvnc/DSA/tree/master/0875-koko-eating-bananas) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/keremyvnc/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/keremyvnc/DSA/tree/master/0202-happy-number) |
+| [0283-move-zeroes](https://github.com/keremyvnc/DSA/tree/master/0283-move-zeroes) |
 ## Binary Search
 |  |
 | ------- |
